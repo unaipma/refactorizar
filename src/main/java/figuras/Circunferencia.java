@@ -15,7 +15,7 @@ public class Circunferencia {
         double d=2 * getRad();
         System.out.println("Diámetro: " +d );
         System.out.println("Color: " + color);
-        double area = 2 * 3.1416 * getRad() * getRad();
+        double area=calcularArea();
         System.out.println(area);
     }
 
@@ -49,6 +49,11 @@ public class Circunferencia {
      */
     public void setRad(double rad) {
         this.radio = rad;
+    }
+    
+    public double calcularArea(){
+        double a= 2 * 3.1416 * getRad() * getRad();
+        return a ;
     }
 }
 
