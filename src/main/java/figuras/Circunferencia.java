@@ -3,13 +3,14 @@ package figuras;
 public class Circunferencia {
 
     private double radio;
+    String color;
 
     public Circunferencia(double radio) {
         this.radio = radio;
     }
 
     public void imprimir() {
-        String color = "rojo";
+        color="rojo";
         System.out.println("Diámetro: " + 2 * getRad());
         System.out.println("Color: " + color);
         double area = 2 * 3.1416 * getRad() * getRad();
