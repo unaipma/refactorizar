@@ -2,10 +2,10 @@ package figuras;
 
 public class Circunferencia {
 
-    private double rad;
+    private double radio;
 
     public Circunferencia(double radio) {
-        this.rad = radio;
+        this.radio = radio;
     }
 
     public void imprimir() {
@@ -35,17 +35,17 @@ public class Circunferencia {
     }
 
     /**
-     * @return the rad
+     * @return the radio
      */
     public double getRad() {
-        return rad;
+        return radio;
     }
 
     /**
-     * @param rad the rad to set
+     * @param rad the radio to set
      */
     public void setRad(double rad) {
-        this.rad = rad;
+        this.radio = rad;
     }
 }
 
