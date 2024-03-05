@@ -4,9 +4,10 @@ public class Circunferencia {
 
     private double radio;
     String color;
-
+    private double PI;
     public Circunferencia(double radio) {
         this.radio = radio;
+        PI=4.1316;
     }
 
     public void imprimir() {
