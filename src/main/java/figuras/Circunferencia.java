@@ -19,7 +19,7 @@ public class Circunferencia {
         System.out.println(area);
     }
 
-    public boolean esIgual( boolean conDecimales,Circunferencia otro) {
+    public boolean esIgual( Circunferencia otro, boolean considerarDecimales) {
         double radio1 = this.getRad();
         double radio2 = otro.getRad();
         if (considerarDecimales) {
